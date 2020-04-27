@@ -1,0 +1,26 @@
+{
+    "name": "ixianming/image-captcha",
+    "description": "Image Captcha. The captcha font can be automatically adapted to the image size. Based on the `intervention/image` library, the installation and use conditions are the same as for `intervention/image`. Please read README.MD for more details.",
+    "keywords": [
+        "image verification code",
+        "image captcha",
+        "captcha"
+    ],
+    "homepage": "https://github.com/ixianming/image-captcha",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ixianming",
+            "email": "ixianming@sina.com"
+        }
+    ],
+    "require": {
+        "intervention/image": ">=2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ixianming\\ImageCaptcha\\": "src/"
+        }
+    }
+}
